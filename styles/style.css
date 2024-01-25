@@ -36,3 +36,15 @@ ul,
 ol {
   list-style: none;
 }
+
+.content {
+  display: flex;
+  align-items: end;
+  block-size: 600px;
+  margin: 0 auto;
+}
+
+.content__details {
+  max-height: 100%;
+  overflow-y: scroll;
+}
